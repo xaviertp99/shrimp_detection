@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['grande-con-cabeza-y-cola', 'grande-con-cabeza-y-sin-cola', 'grande-con-cola-y-sin-cabeza', 'grande-sin-cabeza-y-sin-cola', 'mediana-con-cabeza-y-cola', 'mediano-con-cabeza-y-sin-cola', 'mediano-con-cola-y-sin-cabeza', 'mediano-sin-cabeza-y-sin-cola', 'pequeno-con-cabeza-y-con-cola', 'pequeno-con-cabeza-y-sin-cola', 'pequeno-con-cola-y-sin-cabeza', 'pequeno-sin-cabeza-y-sin-cola']
+
+roboflow:
+  workspace: project
+  project: shrimp-detection-m0gh7
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/project/shrimp-detection-m0gh7/dataset/1

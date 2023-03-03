@@ -1,0 +1,12 @@
+{
+    "__comment1": "Obtain these values via Roboflow",
+    "ROBOFLOW_API_KEY": "wgQ2NUXoRmyebbiz1sib&",
+    "ROBOFLOW_MODEL": "shrimp-detection-m0gh7/1",
+    "ROBOFLOW_SIZE": 416,
+
+    "__comment2": "The following are only needed for infer-async.py",
+    "FRAMERATE": 24,
+    "BUFFER": 0.5
+}
+
+
